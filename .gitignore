@@ -1,1 +1,53 @@
-node_modules
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database credentials / dumps
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+*.mongo
+*.bson
+
+# Local runtime files
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore build output (if using TypeScript or a bundler)
+dist/
+build/
+
+# Optional: IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Optional: Coverage reports
+coverage/
+
+# Optional: Debug cache
+.nyc_output/
+
+# Optional: Lint cache
+.eslintcache
